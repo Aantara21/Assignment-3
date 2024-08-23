@@ -4,25 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fontawesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/bbfc4be646.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tailwind cdn link  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
+          theme: {
             extend: {
               colors: {
                 clifford: '#da373d',
               }
             }
           }
+        }
       </script>
-</head>
-<body>
-    <header>
-        <!-- navbar section  -->
-        <nav></nav>
-        <!-- banner section  -->
-         <div class="banner">
 
-         </div>
+      <!-- daisyUI + tailwind cdn -->
+
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <!-- navbar section  -->
+        <nav>
+            <div class="navbar bg-">
+                <div class="navbar-start">
+                    
+                    <div class="">
+                        <button
+                    class="btn btn-circle btn-sm  -rotate-45 text-lg font-extralight bg-[#ABEF5F]  "
+                  >
+                  <i class="fa-solid fa-arrow-right  text-black"></i>
+            
+                  </button>    
+               <a class="btn btn-ghost px-0 text-xl font-extrabold">Rinterio</a>
+                </div>
+                    </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-bold">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                    <li><a>Book Consult</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+ <!-- mobile dropdown menu  -->
+ <button
+ class="btn btn-circle btn-md lg:hidden text-lg font-extralight bg-[#FFFFFF]"
+>
+<i class="fa-solid fa-bars"></i>
+
+</button>
+
+ 
+<!-- extra two button  -->
+<button
+class="btn btn-circle btn-md  text-lg hidden lg:block font-extralight bg-[#FFFFFF] mr-2  "
+>
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</button>
+
+<button
+class="btn btn-circle btn-md text-lg hidden lg:block font-extralight bg-[#FFFFFF] mr-2  "
+>
+<i class="fa-solid fa-cart-shopping"></i>
+
+</button>
+
+<!-- extra two button end -->
+
+<!-- Book Consult start -->
+                    <button
+                    class="bg-[#ABEF5F]  px-4 py-2 rounded-full text-black font-bold hidden lg:block  "
+                  >
+                  Book Consult
+                    <i class="fa-solid fa-arrow-right text-sm  text-white bg-black -rotate-45 btn btn-circle btn-sm  "></i>
+                  </button>
+<!-- Book Consult end -->
+                  
+                </div>
+              </div>
+        </nav>
+        <!-- banner section  -->
+        <div class="hero bg-base-200 min-h-full">
+            <div class="hero-content text-center">
+              <div class="max-w-md">
+                <img src="images/banner.png" alt="" srcset="">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-extrabold">We Visualize The Unbuilt Environment</h1>
+                <p class="py-6">
+                    From intimate single-family homes to region-defining developments, we pride ourselves on being the trusted resource for bringing our clients' visions to life through imagery, video, and interactive experiences.
+                </p>
+                </div>
+ <!-- banner button  -->               
+                <button
+            class="bg-[#acef5f8e] rounded-full px-4 py-2 text-bl font-medium"
+          >
+          View Details
+          
+          <i class="fa-solid fa-arrow-right text-sm  text-black bg-[#ABEF5F] -rotate-45 btn btn-circle btn-sm  "></i>
+  
+        
+          </button>
+              </div>
+            </div>
+          </div>
+            
+            
+
+        
     </header>
 
     <!-- main section -->
