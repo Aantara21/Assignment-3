@@ -25,7 +25,10 @@
                 extend: {
                   colors: {
                     clifford: '#da373d',
-                  }
+                  },
+                  backgroundImage: {
+        discuss: "url('images/bg.jpg')",
+    }
                 }
               }
             }
@@ -178,7 +181,7 @@ View Details
 
 
 <!-- Read Our Articles and News  -->
- <section class="bg-[#f4f4f4] py-8">
+ <section class=" bg-[#f4f4f4] py-8 ">
    <!-- written content  -->
    <div class=" bg-[#f4f4f4] text-center space-y-3 my-12  ">
     <button class="btn btn-sm bg-white rounded-full">
@@ -188,14 +191,14 @@ View Details
     <h2 class="text-2xl font-extrabold ">
         Read Our Articles and News
     </h2>
-    <p class="max-w-3xl mx-auto" >
+    <p class="max-w-3xl mx-auto px-4" >
         The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
     </p>
 </div>
 
 
 <!-- cards  -->
- <div class="lg:container mx-auto grid grid-cols-1 lg:grid-cols-3 lg:ml-7 bg-[#f4f4f4] gap-4 p-3">
+ <div class="container mx-auto lg:ml-7 grid grid-cols-1 lg:grid-cols-3  bg-[#f4f4f4] gap-2 p-3">
 <!-- card1      -->
     <div class=" bg-white  lg:w-4/5 p-5 rounded-2xl  space-y-3 ">
         <img class="w-full" src="images/article1.png" alt="" srcset="">
@@ -243,6 +246,55 @@ View Details
 </div>
  </div>
  </section>
+
+ <!-- Let’s Discuss Next Project  -->
+<section class="bg-discuss">
+    <div class="  text-center space-y-3 my-12 px-4 ">
+        <button class="btn btn-sm bg-white rounded-full">
+            <i class="fa-solid fa-arrow-right  text-black"></i> Let’s Connect
+          
+        </button>
+        <h2 class="text-2xl font-extrabold ">
+            Let’s Discuss Next Project
+        </h2>
+        <p class="max-w-3xl mx-auto " >
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+    </div>
+</section>
     </main>
 </body>
+
+<!-- footer  -->
+<footer class="bg-black p-9 text-center">
+    <div>
+        <button
+        class="btn btn-circle btn-sm  -rotate-45 text-lg font-extralight bg-[#ABEF5F] mt-2 mr-1"
+      >
+      <i class="fa-solid fa-arrow-right  text-black"></i>
+
+      </button>    
+   <a class="btn btn-ghost px-0 text-xl text-white font-extrabold">Rinterio</a> 
+        <p class="text-gray-500 ">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+    </div>
+    <div class="w-4/5 mx-auto text-gray-400">
+        <ul class="flex menu-horizontal">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+          <li><a>Book Consult</a></li>
+        </ul>
+      </div>     
+
+      <button
+                class="bg-[#ABEF5F]  px-5 py-2 rounded-full text-black font-bold"
+              >
+              Book Consult
+                <i class="fa-solid fa-arrow-right text-sm  text-white bg-black -rotate-45 btn btn-circle btn-sm  "></i>
+              </button>
+</footer>
 </html>
